@@ -1,0 +1,93 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>My first web page</h1>
+    <p id="demo"></p>
+    <script>
+
+        var fruits,text,flen,i;
+        fruits = ["banana", "orange", "apple", "mango"];
+        flen = fruits.length;
+        text = "<ul>";
+        for(i = 0; i < flen; i++) {
+            text += "<li>" + fruits[i] + "</li>";
+        }
+        text += "</ul>";
+        document.getElementById("demo").innerHTML= text;
+        console.log(fruits,text,flen,i) 
+
+        const newdata = [
+            {'task 1':' exercise'},
+            [1,2,3],
+            function hello () {console.log ('hello')}
+        ];
+        console.log(newdata)
+
+        let dailyActivities = ['eat','sleep',];
+        dailyActivities.unshift('exercise');
+
+        console.log(dailyActivities);
+
+        let  dailyactivities = ['eat','sleep',];
+        dailyactivities[1]= 'exercise';
+        console.log(dailyactivities)
+
+        let daily = ['work','eat','sleep','exercise',];
+        daily.pop('work');
+        console.log(daily);
+        const removedElement =daily.pop();
+        console.log(removedElement);
+        console.log(daily)
+          
+        let dail = ['work','eat','sleep','exercise',];
+        dail.shift('work');
+        console.log(dail);
+
+        function greet () {
+            console.log ('hello there');
+        }
+        greet()
+
+
+        
+        function greet (name) {
+            document.getElementById('demo').innerHTML="hello"+ name ;
+        }
+        let name = prompt("enter a name");
+        greet(name)
+
+
+
+
+
+
+        function add (a,b) {
+            document.getElementById('demo').innerHTML= a-b;
+        }
+        add(3,4);
+        add(2,9);
+
+        function add (a,b){
+            return a+b
+            document.getElementById('demo').innerHTML= result ;
+        }
+        let number1=parseFloat(prompt("Enter first number:"));
+        let number2=parseFloat(prompt("Enter second number:"));
+        
+        
+        let result=add(number1,number2);
+        console.log(result)
+        
+ 
+    </script>
+    <h2></h2>
+    <button onclick="greet()">click</button>
+
+<link rel="stylesheet" href="STYLE.CSS">
+</body>
+<script src="man.js"></script>
+</html>

@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .slide-container{
+            width: 80%;
+            overflow: hidden;
+
+        }
+        .slide img{
+            width: 40%;
+            border-radius: 10px;
+            height: 50%;
+           position: absolute;
+           left: 400px;
+            
+        }
+        .slide{
+            display: none;
+        }
+        .buttons{
+            position: absolute;
+            left: 500px;
+            top: 300px; ;
+        }
+        button{
+            padding: 10px;
+            background-color: blueviolet;
+            border: none;
+            border-radius: 5px;
+            margin: 30px;
+        }
+        button:hover{
+            background-color: #fff;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+     <div class="slide">
+        <img src="images/images/img2.avif" alt="" srcset="">
+     </div>
+     <div class="slide">
+        <img src="images/images/img3.avif" alt="" srcset="">
+     </div>
+     <div class="slide">
+        <img src="images/images/3d-house-with-scaffolding_1048-4702.avif" alt="" srcset="">
+     </div>
+     <div class="buttons">
+        <button id="prevBtn">Previous</button>
+        <button id="NextBtn">Next</button>
+    </div>
+    </div>
+</body>
+<script src="kk.js"></script>
+</html>

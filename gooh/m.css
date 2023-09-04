@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+}
+.navbar{
+    
+    background-color:blue ;
+    color: aqua;
+}
+ul{
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    
+}
+.under{
+    float: left;
+    margin-left: 20%;
+    margin-bottom: px;
+    width: 100px;
+}
+li{
+    margin-left: ;
+}
+
+
+ul li{
+    position: relative;
+    list-style: none;
+    width: 50px;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+
+

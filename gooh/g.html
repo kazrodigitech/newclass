@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+ <script>
+    const o = new Object();
+    o.foo = 42;
+    console.log(o)
+ </script>
+ <script>
+    let school ={
+        name :'Tecxy School',
+        location : 'Delhi',
+        established :'1934',
+        20 : 1000,
+        displayinfo:function(){
+            console.log(` ${school['20']}  ${school.name} ${school.established} `);
+        }
+    }
+    console.log ( school['location'])
+    school.displayinfo();
+ </script>
+ <script>
+    let person ={
+        gender:"male"
+    }
+    
+    let person1 = Object.create(person)
+    person1.name = "Adam";
+    person1.age = 45;
+    person1.nationality = "Australian";
+    console.log(person1)
+    for (let key in person1){
+        console.log(key);
+    }
+ 
+   
+   
+ </script>
+
+ <script>
+    let obj1 ={
+        propfirst : "name"
+    }
+    console.log(obj1.propfirst)
+
+    delete obj1.propfirst
+   
+ </script>
+
+</body>
+</html>

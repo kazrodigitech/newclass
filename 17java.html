@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="us"></div>
+    <div id="demo"></div>
+    <script>
+    let text1 = "John";
+    let text2 = "Doe";
+    let text3 = text1 + " " + text2
+
+   // document.write(text3)
+
+    let a = 3;
+    let b = -2;
+    if (!(a > 0 && b < 0)){
+      //  document.write(true) 
+    } else {
+      //  document.write(false)
+    }
+
+ 
+    var boy1 = "king";
+    var boy2 = "queen";
+    var boy3 = "mother";
+
+    var names =[boy1, boy2, boy3,"hello world", ];
+     // names.length: this is how we check the number of length
+    document.write(names[0])
+
+  // another way of creating variables..... The best way to loop through an array using a standard for loop
+    var fruits, text, flen, i;
+
+    fruits = ["banana", "orange", "apple", "mango"];
+    flen = fruits.length;
+    text = "<ul>";
+    for(i = 0; i < flen; i++) {
+        text += "<li>" + fruits[i] + "</li>";
+
+    }
+    text += "</ul>";
+    document.getElementById("demo").innerHTML=text
+
+
+
+
+   
+    
+
+
+   
+
+</script>
+</body>
+</html>

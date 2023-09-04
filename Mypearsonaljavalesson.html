@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <p id="demo">Let Javascript change the content of HTMl element</p>
+   <button type="button" onclick='document.getElementById("demo").innerHTML="Evans"'>Say my Name</button>
+
+   <p id="test">Let javascript show my name style</p>
+   <button type="button" onclick="document.getElementById('test').style.fontSize='50px'">Make it big</button>
+
+   <P>Let js change my photo</P>
+   <button onclick="document.getElementById('myimage').src='us.jpg'">change image</button>
+   <img id="myimage" src="./My work/image/we.jpg" width="70px">
+   <button onclick="document.getElementById('myimage').src='you.jpg'">Another photo</button> <br>
+
+   <p id="hide">Evans Joseph</p>
+   <button type="button" onclick="document.getElementById('hide').style.display='none'">Click Me</button>
+
+   <p id="show" style="display: none">Evans</p>
+   <button onclick="document.getElementById('show').style.display='block'">show me</button>
+
+</body>
+<script src="./Mypearsonaljavalesson.js"></script>
+</html>

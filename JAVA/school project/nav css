@@ -1,0 +1,34 @@
+.right{
+    margin: 120px auto 12px;
+    background-image: image();
+    border-radius: 8px;
+}
+form{
+    margin: 8px 5px;
+    padding: 10px;
+    width: 369px; ;
+}
+h2{
+    color: #fff;
+}
+.text{
+    margin-bottom: 10px;
+}
+input[type="text"]{
+    width: 100%;
+    border-radius:5px ;
+    padding: 14px;
+}
+input[type="password"]{
+    width: 100%;
+    border-radius:5px ;
+    padding: 14px;
+}
+input[type="button"]{
+    width: 40%;
+    border-radius:5px ;
+    padding: 14px;
+   background-color: rgb(37, 37, 189);
+   text-decoration-color: rgb(19, 18, 18);
+    
+}
